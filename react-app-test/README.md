@@ -5,6 +5,9 @@ screen : 함수 사용할수 있게 도와줌
 getByTestId : id 탐색해서 가져옴 (마크업엔 data-testid="아이디이름" 이런식으로 써야됨)
 fireEvent : 이벤트를 발생시킴
 
+getByRole : getByTestId 말고 이거쓰자
+userEvent : fireEvent 말고 이거쓰자
+
 # Jest-dom
 
 expect
